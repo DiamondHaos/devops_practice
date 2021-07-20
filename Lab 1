@@ -85,10 +85,10 @@ cd
 ls
 cd testdir
 ls
-chown user02 testfile
-sudo chown user02 testfile
+chown user01 testfile
+sudo chown user01 testfile
 id user02
-sudo chgrp user02 testfile
+sudo chgrp user01 testfile
 ls -al
 sudo chmod [g] {-} [w] testfile
 chmod --help
